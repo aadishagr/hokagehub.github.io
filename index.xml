@@ -6,14 +6,7 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 00:13:43 +0530</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://aadishagr.github.io/hokagehub.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DOC1</title>
-      <link>https://aadishagr.github.io/hokagehub.github.io/docs/test/</link>
-      <pubDate>Wed, 28 Aug 2024 00:13:43 +0530</pubDate>
-      <guid>https://aadishagr.github.io/hokagehub.github.io/docs/test/</guid>
-      <description>This is doc 1</description>
-    </item>
   </channel>
 </rss>
