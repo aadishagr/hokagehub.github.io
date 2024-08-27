@@ -2,14 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aadishagr.github.io/hokagehub.github.io/docs/</loc>
-    <lastmod>2024-08-28T14:00:00+00:00</lastmod>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/tags/ai/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
   </url><url>
-    <loc>https://aadishagr.github.io/hokagehub.github.io/</loc>
-    <lastmod>2024-08-28T14:00:00+00:00</lastmod>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/categories/ai/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
   </url><url>
     <loc>https://aadishagr.github.io/hokagehub.github.io/categories/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
+  </url><url>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/docs/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
+  </url><url>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
+  </url><url>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/tags/machine-learning/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
+  </url><url>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/tags/nlp/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
   </url><url>
     <loc>https://aadishagr.github.io/hokagehub.github.io/tags/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
+  </url><url>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/categories/technology/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
+  </url><url>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/tags/transformers/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
+  </url><url>
+    <loc>https://aadishagr.github.io/hokagehub.github.io/docs/transformer/</loc>
+    <lastmod>2024-08-28T01:09:05+05:30</lastmod>
   </url>
 </urlset>
