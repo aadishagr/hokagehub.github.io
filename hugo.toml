@@ -9,6 +9,4 @@ theme = "PaperMod"
   description = "A blog about AI, technology, and more."
 
 [[params.social]]
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/aadish-agrawal-740bb48b/"
-  icon = "linkedin"
+  linkedin = "https://www.linkedin.com/in/aadish-agrawal-740bb48b/"
