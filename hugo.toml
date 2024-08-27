@@ -6,7 +6,7 @@ theme = "PaperMod"
 [params]
   # Other params
   author = "Aadish Agrawal"
-  description = "A blog about AI, technology, and more."
+  description = "Blog about AI, technology, and more."
 
 [[params.social]]
   linkedin = "https://www.linkedin.com/in/aadish-agrawal-740bb48b/"
