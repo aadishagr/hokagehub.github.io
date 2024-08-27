@@ -1,10 +1,10 @@
 +++
-title: "Understanding the Transformer in AI"
-date: 2024-08-28T14:00:00Z
-tags: ["AI", "Machine Learning", "NLP", "Transformers"]
-categories: ["Technology", "AI"]
-author: "Aadish Agrawal"
-description: "An in-depth look at how the Transformer architecture has revolutionized AI and NLP."
+title = "Understanding the Transformer in AI"
+date = 2024-08-28T01:09:05+05:30
+tags = ["AI", "Machine Learning", "NLP", "Transformers"]
+categories = ["Technology", "AI"]
+author = "Aadish Agrawal"
+description = "An in-depth look at how the Transformer architecture has revolutionized AI and NLP."
 +++
 
 # Understanding the Transformer Engine in AI
@@ -36,3 +36,4 @@ The Transformer architecture continues to evolve, with research focusing on impr
 
 
 _If you’re interested in learning more about Transformers or exploring how they can be applied to your projects, feel free to reach out in the comments below!_
+
