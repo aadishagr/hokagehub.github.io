@@ -2,3 +2,13 @@ baseURL = 'https://aadishagr.github.io/hokagehub.github.io/'
 languageCode = 'en-us'
 title = 'Hokage Hub Blog'
 theme = "PaperMod"
+
+[params]
+  # Other params
+  author = "Aadish Agrawal"
+  description = "A blog about AI, technology, and more."
+
+[[params.social]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/aadish-agrawal-740bb48b/"
+  icon = "linkedin"
