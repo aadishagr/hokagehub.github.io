@@ -97,7 +97,7 @@ params:
 
   socialIcons:
     # - name: cv
-    #   url: "/WeiJesseResumePublic.pdf"
+    #   url: "/aadishagrawak.pdf"
     - name: github
       url: "https://github.com/aadishagr"
     - name: linkedin
