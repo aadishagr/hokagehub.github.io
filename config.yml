@@ -143,19 +143,19 @@ menu:
   main:
     - identifier: about
       name: About
-      url: /hokagehub.github.io/about/
+      url: /about/
       weight: 1
     - identifier: projects
       name: Projects
-      url: /hokagehub.github.io/projects/
+      url: /projects/
       weight: 2
     - identifier: misc
       name: Misc
-      url: /hokagehub.github.io/misc/
+      url: /misc/
       weight: 3
     - identifier: search
       name: Search
-      url: /hokagehub.github.io/search/
+      url: /search/
       weight: 4
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
