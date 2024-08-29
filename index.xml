@@ -6,8 +6,15 @@
     <description>Recent content on Hokage Hub Blog</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 01:09:05 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 12:23:59 -0400</lastBuildDate>
     <atom:link href="https://aadishagr.github.io/hokagehub.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>https://aadishagr.github.io/hokagehub.github.io/about/</link>
+      <pubDate>Thu, 29 Aug 2024 12:23:59 -0400</pubDate>
+      <guid>https://aadishagr.github.io/hokagehub.github.io/about/</guid>
+      <description>Information about me.</description>
+    </item>
     <item>
       <title>Understanding the Transformer in AI</title>
       <link>https://aadishagr.github.io/hokagehub.github.io/docs/transformer/</link>
