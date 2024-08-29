@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aadishagr.github.io/hokagehub.github.io/sitemap.xml
