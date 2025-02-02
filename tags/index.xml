@@ -6,33 +6,40 @@
     <description>Recent content in Tags on Hokage Hub Blog</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 01:09:05 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 01:09:05 +0530</lastBuildDate>
     <atom:link href="https://aadishagr.github.io/hokagehub.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
       <link>https://aadishagr.github.io/hokagehub.github.io/tags/ai/</link>
-      <pubDate>Wed, 28 Aug 2024 01:09:05 +0530</pubDate>
+      <pubDate>Mon, 03 Feb 2025 01:09:05 +0530</pubDate>
       <guid>https://aadishagr.github.io/hokagehub.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LLM</title>
+      <link>https://aadishagr.github.io/hokagehub.github.io/tags/llm/</link>
+      <pubDate>Mon, 03 Feb 2025 01:09:05 +0530</pubDate>
+      <guid>https://aadishagr.github.io/hokagehub.github.io/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
       <link>https://aadishagr.github.io/hokagehub.github.io/tags/machine-learning/</link>
-      <pubDate>Wed, 28 Aug 2024 01:09:05 +0530</pubDate>
+      <pubDate>Mon, 03 Feb 2025 01:09:05 +0530</pubDate>
       <guid>https://aadishagr.github.io/hokagehub.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>NLP</title>
       <link>https://aadishagr.github.io/hokagehub.github.io/tags/nlp/</link>
-      <pubDate>Wed, 28 Aug 2024 01:09:05 +0530</pubDate>
+      <pubDate>Mon, 03 Feb 2025 01:09:05 +0530</pubDate>
       <guid>https://aadishagr.github.io/hokagehub.github.io/tags/nlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Transformers</title>
       <link>https://aadishagr.github.io/hokagehub.github.io/tags/transformers/</link>
-      <pubDate>Wed, 28 Aug 2024 01:09:05 +0530</pubDate>
+      <pubDate>Mon, 03 Feb 2025 01:09:05 +0530</pubDate>
       <guid>https://aadishagr.github.io/hokagehub.github.io/tags/transformers/</guid>
       <description></description>
     </item>

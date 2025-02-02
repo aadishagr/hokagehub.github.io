@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Hokage Hub Blog</title>
-    <link>https://aadishagr.github.io/hokagehub.github.io/posts/</link>
-    <description>Recent content in Posts on Hokage Hub Blog</description>
+    <title>LLM on Hokage Hub Blog</title>
+    <link>https://aadishagr.github.io/hokagehub.github.io/tags/llm/</link>
+    <description>Recent content in LLM on Hokage Hub Blog</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Feb 2025 01:09:05 +0530</lastBuildDate>
-    <atom:link href="https://aadishagr.github.io/hokagehub.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://aadishagr.github.io/hokagehub.github.io/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Handling long context: Understanding concept of Blockwise Parallel Transformers and Ring Attention</title>
       <link>https://aadishagr.github.io/hokagehub.github.io/posts/ring_attention_bpt/</link>
       <pubDate>Mon, 03 Feb 2025 01:09:05 +0530</pubDate>
       <guid>https://aadishagr.github.io/hokagehub.github.io/posts/ring_attention_bpt/</guid>
       <description>Deep dive into concept of multi-head attention, Blockwise Parallel Transformers and Ring Attention.</description>
-    </item>
-    <item>
-      <title>Understanding the Transformer in AI</title>
-      <link>https://aadishagr.github.io/hokagehub.github.io/posts/transformer/</link>
-      <pubDate>Wed, 28 Aug 2024 01:09:05 +0530</pubDate>
-      <guid>https://aadishagr.github.io/hokagehub.github.io/posts/transformer/</guid>
-      <description>An in-depth look at how the Transformer architecture has revolutionized AI and NLP.</description>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,15 @@
     <description>Recent content in Machine Learning on Hokage Hub Blog</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 01:09:05 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 01:09:05 +0530</lastBuildDate>
     <atom:link href="https://aadishagr.github.io/hokagehub.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Handling long context: Understanding concept of Blockwise Parallel Transformers and Ring Attention</title>
+      <link>https://aadishagr.github.io/hokagehub.github.io/posts/ring_attention_bpt/</link>
+      <pubDate>Mon, 03 Feb 2025 01:09:05 +0530</pubDate>
+      <guid>https://aadishagr.github.io/hokagehub.github.io/posts/ring_attention_bpt/</guid>
+      <description>Deep dive into concept of multi-head attention, Blockwise Parallel Transformers and Ring Attention.</description>
+    </item>
     <item>
       <title>Understanding the Transformer in AI</title>
       <link>https://aadishagr.github.io/hokagehub.github.io/docs/transformer/</link>
