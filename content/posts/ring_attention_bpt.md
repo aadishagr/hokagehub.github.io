@@ -10,7 +10,7 @@ description = "Deep dive into concept of multi-head attention, Blockwise Paralle
 # Handling long context: Understanding concept of Blockwise Parallel Transformers and Ring Attention
 
 ## Basics of transformer architecture
-![Diagram 1: The encoder-decoder structure of the Transformer architecture Taken from "Attention Is All You Need"](../docs/assets/images/ringatten/transformer.png)
+![Diagram 1: The encoder-decoder structure of the Transformer architecture Taken from "Attention Is All You Need"](https://raw.githubusercontent.com/aadishagr/hokagehub.github.io/refs/heads/main/content/docs/assets/images/ringatten/transformer.png)
 
 The fundamental idea of transformer architecture revolves around positional encoding and the multi-head self-attention mechanism. It includes an encoder, where self-attention is calculated first, followed by a feed-forward layer. The decoder consists of masked multi-head self-attention, then a second layer of multi-head attention, and finally, a feed-forward layer.
 
