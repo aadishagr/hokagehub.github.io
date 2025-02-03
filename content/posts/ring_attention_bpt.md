@@ -47,6 +47,8 @@ The query matrix, with dimensions (s, d), is logically split to include only the
 
 For each head, attention is computed using the sliced Q, K, and V matrices to obtain the attention output for each head. This involves a single matrix multiplication, rather than looping through each head. Finally, the outputs from all heads are concatenated to produce the final attention output.
 
+Different parts of the output Embedding can understand various aspects of each word's meaning in relation to other words in the sequence. This enables the Transformer to grasp more nuanced interpretations of the sequence. For instance, one section might capture the 'gender-ness' (male, female, neuter) of a noun while another might capture the 'cardinality' (singular vs plural) of a noun.
+
 ## Limitation of Self Attention
 Due to the memory requirement for attention computation being O(n²), it increases quadratically with the sequence length. This significant memory demand limits the transformer model's ability to tackle various AI challenges, such as processing videos, high-resolution images, podcasts, code, or books, both during training and inference.
 Various techniques have been proposed to reduce the memory requirements of Transformers, including sparse approximation, low-rank approximation, and low-precision approximation. A distinct approach involves computing the softmax matrix in self-attention with linear memory requirements, which can be achieved without materializing the full matrix.
