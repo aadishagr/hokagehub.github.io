@@ -11,7 +11,7 @@ description = "Deep dive into concept of multi-head attention, Blockwise Paralle
 
 ## Basics of transformer architecture
 ![Diagram 1: The encoder-decoder structure of the Transformer architecture
-Taken from "Attention Is All You Need"](../docs/assets/images/ringatten/BPT_algo.png)
+Taken from "Attention Is All You Need"](assets/images/ringatten/BPT_algo.png)
 The fundamental idea of transformer architecture revolves around positional encoding and the multi-head self-attention mechanism. It includes an encoder, where self-attention is calculated first, followed by a feed-forward layer. The decoder consists of masked multi-head self-attention, then a second layer of multi-head attention, and finally, a feed-forward layer.
 
 The multi-head self-attention mechanism in the encoder determines the relevance of each token within the context. Conversely, the masked multi-head self-attention in the decoder establishes the relevance of each token in a causal manner, meaning the model cannot consider future tokens. The second attention layer in the decoder takes the key and value from the encoder and the query from the previous attention layer of the decoder.
