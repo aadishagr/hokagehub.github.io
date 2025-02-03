@@ -7,8 +7,6 @@ author = "Aadish Agrawal"
 description = "Deep dive into concept of multi-head attention, Blockwise Parallel Transformers and Ring Attention."
 +++
 
-# Handling long context: Understanding concept of Blockwise Parallel Transformers and Ring Attention
-
 ## Basics of transformer architecture
 ![Diagram 1: The encoder-decoder structure of the Transformer architecture - Taken from "Attention Is All You Need"](https://raw.githubusercontent.com/aadishagr/hokagehub.github.io/refs/heads/main/content/docs/assets/images/ringatten/transformer.png#center)
 
