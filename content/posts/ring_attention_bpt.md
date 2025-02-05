@@ -73,6 +73,21 @@ This blockwise self-attention computation removes the necessity to materialize t
 Blockwise computation extends beyond self-attention and can be applied to the feed-forward network as well. For each query block, after iterating over the key and value blocks, the feed-forward network is computed along with a residual connection, completing the attention and feed-forward network computation for that query block. This approach means the model processes the feed-forward network on intermediate blocks rather than the entire sequence, resulting in memory savings. The computation for a query block is as follows:
 ![Equation - FFN](https://raw.githubusercontent.com/aadishagr/hokagehub.github.io/refs/heads/main/content/docs/assets/images/ringatten/ffn.png#center)
 
+### **Model Division into Blocks**
+The transformer model is divided into blocks, where each block typically consists of one or more layers of the transformer (e.g., self-attention layers, feedforward layers). For example, a 12-layer transformer might be divided into 4 blocks, with each block containing 3 layers.
+
+### **Parallel Processing of Blocks**
+Instead of processing the entire sequence through all layers sequentially, the input sequence is processed in parallel across the blocks. Each block operates on a different segment of the input sequence simultaneously, allowing for parallel computation.
+
+### **Communication Between Blocks**
+Since the blocks are processed in parallel, there needs to be a mechanism for communication between the blocks to ensure that information flows correctly through the model. This is typically achieved through inter-block communication layers, which allow the blocks to exchange information.
+
+### **Gradient Computation and Backpropagation**
+During training, gradients are computed for each block independently, and then aggregated to update the model parameters. Techniques like gradient checkpointing may be used to manage memory and computational efficiency during backpropagation.
+
+### **Synchronization**
+After parallel processing, the outputs from the different blocks are synchronized to produce the final output of the model. This synchronization step ensures that the model behaves as if it were processed sequentially, even though the computation was done in parallel.
+
 ### **Limitation of BPT**
 While BPT significantly reduces memory demands in Transformers, it still faces a major challenge when scaling up context length due to the need to store the output of each layer. This storage is essential because self-attention inherently involves interactions among all elements (n-to-n interactions). For instance, processing 100 million tokens with a batch size of 1 requires over 1000GB of memory, even for a modest model with a hidden size of 1024. In contrast, modern GPUs and TPUs typically offer less than 100GB of high-bandwidth memory (HBM).
 
